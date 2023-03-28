@@ -25,7 +25,7 @@ jobs:
       run: hugo --minify
 
     - name: Build image
-      uses: elgohr/Publish-Docker-Github-Action@2.8
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         dockerfile: Dockerfile
         name: abogatikov/devalexb/devalexb
